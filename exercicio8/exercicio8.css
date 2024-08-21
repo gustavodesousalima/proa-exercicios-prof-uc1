@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/imagens/guitarra_fundo_body.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#container-Primary{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+header{
+    background-image: url(/imagens/guitarras_header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 96%;
+    height: 150px;
+    padding-bottom:2%;
+    padding-right:4%;
+}
+
+header nav{
+    background-color: aliceblue;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header nav a{
+    padding: 5px;
+    text-decoration: none;
+    color: #4a3014;
+    font-size: 1rem;
+}
+
+#section1{
+    background-color: red;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+.text-description{
+    background-color: pink;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#divloja{
+    position: relative;
+    background-image: url(/imagens/loja.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 240px;
+
+}
+
+#section2{
+    background-color: rgb(217, 246, 246);
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#section2 .divViolao{
+    background-color: #fff;
+    height: 250px;
+}
+
+#section2 .violaoimg{
+    background-image: url(/imagens/guitarrinha.jpg);
+    background-position: center;background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 45px;
+}
+
+#section2 .desctionviolao{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+#section2 #value{
+    color: red;
+    text-align: center;
+}
+
+#section3{
+    gap: 10px;
+    background-color: #b75438;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+}
+
+#section3 #mapa{
+    background-color: maroon;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    flex-direction: row;
+}
+
+#section3 iframe{
+    width: 50%;
+    height: 240px;
+}
+
+#divforms{
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+#divforms form{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 1.2rem;
+    color: blue;
+}
+
+#divredes{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#divsocial{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+}
+
+#divfooter{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#divsocial1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 50%;
+}
+
+#socialWhats{
+    background-image: url(/imagens/whats.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+#socialface{
+    background-image: url(/imagens/face.png);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+#socialinstagram{
+    background-image: url(/imagens/insta.png);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    text-align: center;
+}
+
+footer h4{
+    color: #fff;
+}
+
+footer p{
+    color: #dfdfdf;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+}
+
+textarea{
+    width:250px;
+    height: 180px;
+}

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#principal {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+    margin-bottom: 0;
+}
+
+#side-bar1 {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+}
+
+#side-bar2 {
+    position: relative;
+    width: 15%;
+    height: 600px;
+    background-color: rgb(162, 174, 139);
+    float: left;
+}
+
+section {
+    position: relative;
+    background-color: pink;
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    padding-top: 30px;
+    float: left;
+}
+
+header {
+    position: relative;
+    background-color: aliceblue;
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#div1 {
+    position: relative;
+    margin: auto;
+    background-color: maroon;
+    width: 90%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+p {
+    position: relative;
+    width: 90%;
+    height: 80px;
+    background-color: blueviolet;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#primeiraDiv{
+    position: relative;
+    background-color: aqua;
+    width: 22%;
+    height: 150px;
+    margin: auto;
+    margin-left: 5%;
+    float: left;
+    margin-right: 50px;
+
+}
+
+.divs1{
+    position: relative;
+    background-color: aqua;
+    width: 22%;
+    height: 150px;
+    margin-left: 94.5px;
+    margin-right: 20px;
+    float: left;
+}
+
+aside {
+    position: relative;
+    background-color: blueviolet;
+    width: 15%;
+    height: 600px;
+    float: right;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 48px;
+    background-color: #000;
+    clear: left;
+}
