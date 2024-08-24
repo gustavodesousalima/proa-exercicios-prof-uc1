@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form name="form" id="form">
+        <fieldset>
+            <legend>Cadastro</legend>
+                <label for="Login">Entre com seu Login:</label>
+                <br>
+                <input type="email" name="Login" id="Login" maxlength="50" size="50">
+                <br><br>
+                <label for="Senha">Entre com sua senha:</label>
+                <br>
+                <input type="password" name="Senha" id="Senha" maxlength="50" size="50">
+                <br><br>
+
+                <label for="resp">Você utiliza nosso APP frequentemente</label>
+                <input type="radio" name="resp" id="sim">Sim
+                <input type="radio" name="resp" id="nao">Não
+                <input type="radio" name="resp" id="talvez">Talvez
+                <br><br>
+
+                <label>Qual navegador você costuma utiliza?</label>
+                <input type="checkbox" name="opcao" id="" value="fire">Firefox
+                <input type="checkbox" name="opcao1" id="" value="chrome">Google Chrome
+                <input type="checkbox" name="opca2" id="" value="Safari">Safari
+                <br><br>
+                <label for="">Escolha uma opção</label>
+                <select name="" id="">
+                    <option value="" disabled>1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+                <br><br>
+                <input type="color" name="" id="">
+                <br><br>
+                <progress value="50" max="100"></progress>
+                <br><br>
+                <meter value="24" low="25" max="100"></meter>
+                <br><br>
+                <label for="">Escreva uma mensagem</label>
+                <br>
+                <textarea name="" id=""></textarea>
+                <br><br>
+                <button type="submit" onclick="">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+#nav_primary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+#div-primary-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+    height: 10vh;
+    gap: 25px;
+    margin-left: 22px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+.icon-menu{
+    font-size: 35px;
+}
+
+#logo-youtube{
+    width: 120px;
+    height: 22px;
+}
+
+#div-second-search{
+    background-color: rgba(169, 169, 169, 0.39);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 36%;
+    height: 5vh;
+    border-radius: 18px;
+    gap: 10px;
+}
+
+#div-second-search input{
+    width: 500px;
+    height: 5vh;
+    border-radius: 20px 0px 0px 20px;
+    border: 0.1px solid darkgray;
+}
+
+#div-notification{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    height: 10vh;
+}
+
+#profile{
+    width: 35px;
+    height: 35px;
+    background-image: url(/imagens/profile.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 70px;
+}
+
+#container{
+    display: flex;
+    flex-direction: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#nav_second{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 35px;
+    width: 5%;
+    height: 90vh;
+}
+
+.links_nav_second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 95%;
+    height: 85vh;
+    gap: 20px;
+}
+
+.container-video-extern{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 22,5vh;
+}
+
+iframe{
+    border-radius: 15px;
+}
+
+.div-canal{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    gap: 10px;
+}
+
+h1, h2{
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    color: #585858;
+}
+
+.profile-canal{
+    width: 25px;
+    height: 25px;
+    background-image: url(/imagens/profile.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+span:hover{
+    cursor: pointer;
+    background-color: #58585822;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 500px) {
+
+    #div-primary-logo{
+        margin-left: 5px;
+        gap: 10px;
+    }
+
+    .icon-menu{
+        font-size: 20px;
+    }
+    
+    #logo-youtube{
+        width: 60px;
+        height: 11px;
+    }
+    
+    #div-second-search{
+        background-color: rgba(169, 169, 169, 0.39);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 36%;
+        height: 5vh;
+        border-radius: 18px;
+        gap: 10px;
+    }
+
+    #div-notification{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 25%;
+        height: 10vh;
+    }
+    
+    #div-second-search input{
+        width: 85px;
+        height: 5vh;
+        border-radius: 20px 0px 0px 20px;
+        border: 0.1px solid darkgray;
+    }
+
+    section{
+        width: 70%;
+    }
+
+    .container-video-extern{
+        flex-direction: column;
+        width: 70%;
+    }
+
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+}
