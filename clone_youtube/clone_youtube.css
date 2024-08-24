@@ -170,7 +170,57 @@ p{
 .profile-canal{
     width: 25px;
     height: 25px;
-    background-image: url(/imagens/profile.jpeg);
+    background-image: url(/imagens/gamers1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.profile-canal-1{
+    width: 25px;
+    height: 25px;
+    background-image: url(/imagens/gamers2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.profile-canal-2{
+    width: 25px;
+    height: 25px;
+    background-image: url(/imagens/gamers3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.profile-canal-3{
+    width: 25px;
+    height: 25px;
+    background-image: url(/imagens/gamers4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.profile-canal-4{
+    width: 25px;
+    height: 25px;
+    background-image: url(/imagens/gamers5.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.profile-canal-5{
+    width: 25px;
+    height: 25px;
+    background-image: url(/imagens/gamers6.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
