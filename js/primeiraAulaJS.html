@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="primeiraAula.css">
+    <title>Primera Aula de JS</title>
+</head>
+<body>
+    <main>
+        <div id="content-img">
+            <img onmouseover="show_camada1()" onmouseout="hidden_camadas()" id="img1" src="../imagens/background.jpg" alt="">
+            <img onmouseover="show_camada2()" onmouseout="hidden_camadas()" id="img2" src="../imagens/gamers5.jpeg" alt="">
+            <img onmouseover="show_camada3()" onmouseout="hidden_camadas()" id="img3" src="../imagens/matrice.jpg" alt="">    
+        </div>
+
+        <div id="container-camadas1">
+            <div id="camada1">
+                <p id="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error unde excepturi cumque provident dignissimos porro vero eum nesciunt deleniti fugit.</p>
+            </div>
+    
+            <div id="camada2">
+                <p id="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error unde excepturi cumque provident dignissimos porro vero eum nesciunt deleniti fugit.</p>
+            </div>
+    
+            <div id="camada3">
+                <p id="p3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error unde excepturi cumque provident dignissimos porro vero eum nesciunt deleniti fugit.</p>
+            </div>
+        </div>
+
+        <div id="content-botao">
+            <button onclick="trocarFundo()">Trocar fundo</button>
+        </div>
+    </main>
+</body>
+<script src="./primeiraAula.js"></script>
+</html>
